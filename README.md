@@ -57,22 +57,6 @@ Then open **http://localhost:8501** in your browser.
 
 ---
 
-## 🔬 Novel Contribution: Meta-Cognitive Evaluation
-
-Most ML projects stop at predictions. This framework goes further by **evaluating the reliability of each prediction** across five dimensions:
-
-| Score | Meaning |
-|-------|---------|
-| **Prediction Confidence** | How far the model probability is from the 50% decision boundary |
-| **Data Completeness**     | What fraction of expected features were provided |
-| **Academic Consistency**  | How well CGPA, attendance, and backlogs align |
-| **Skill Readiness**       | Average skill scores + experience bonuses |
-| **Feature Reliability**   | Penalty for out-of-range or suspicious values |
-| **Final Reliability Score** | Weighted combination of all five |
-
-This makes the system self-aware about *when not to trust its own output* — a key idea in responsible AI.
-
----
 
 ## 🤖 Models Compared (6 total)
 
@@ -123,10 +107,3 @@ Already pre-executed with all outputs (charts, tables, predictions) saved inside
 3. **Batch Upload** — upload CSV, get bulk predictions, download results  
 
 ---
-
-## 📝 Extending to a Conference Paper
-
-- Replace synthetic data with a real public dataset (UCI Student Performance / Kaggle)
-- Add SHAP explainability alongside meta-cognitive scores
-- Run ablation study: does meta-cognitive filtering improve user trust?
-- Compare with a baseline that lacks the reliability layer
