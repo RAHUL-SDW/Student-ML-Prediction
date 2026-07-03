@@ -1,0 +1,1 @@
+cgpa,attendance,sem_gpa,internal_marks,backlogs,coding_skill,communication_skill,technical_skill,aptitude_score,english_proficiency,internship,projects,certifications,academic_consistency,skill_readiness,overall_performance
